@@ -10,7 +10,7 @@ Installation (Windows)
 - If prompted by Windows Defender / SmartScreen, choose "More info" → "Run anyway" if you trust this build.
 
 First Run
-- Launch EDCoPTER from Start Menu (or run the installed `edcopter.exe`).
+- Launch EDCoPTER Launcher from Start Menu or Desktop (or run the installed `edcopter.exe`).
 - In the Server Controller window:
   - Choose the network adapter to bind to.
   - Enter the IP address where the Python EDCoPilot is running (use `127.0.0.1` if on same machine).
