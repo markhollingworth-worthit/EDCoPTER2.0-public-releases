@@ -9,10 +9,6 @@ Installation (Windows)
 - Run the installer and follow the prompts (default install path recommended).
 - If prompted by Windows Defender / SmartScreen, choose "More info" → "Run anyway" if you trust this build.
 
-Firewall & Permissions
-- On first run the app may need firewall access for WebSocket (8088), HTTP (4500) and TCP bridge (9096).
-- On Windows run the provided `setup-firewall.ps1` as Administrator to add recommended rules.
-
 First Run
 - Launch EDCoPTER from Start Menu (or run the installed `edcopter.exe`).
 - In the Server Controller window:
@@ -24,6 +20,15 @@ Headless / Server Mode
 - The packaged app supports a headless mode for server-only use:
   - `edcopter --headless --port 4500`
   - Access the UI at `http://localhost:4500` or `http://<your-ip>:4500` from the network.
+
+| Option           | Alias | Description                   | Default   |
+|------------------|-------|-------------------------------|-----------|
+| `--headless`     | `-h`  | Run without GUI (server only) | false     |
+| `--port`         | `-p`  | HTTP/WebSocket server port    | 4500      |
+| `--ip`           | -     | Server IP address             | 0.0.0.0   |
+| `--edcopilot-ip` | -     | EDCoPilot TCP server IP       | 127.0.0.1 |
+| `--debug`        | `-d`  | Enable debug logging          | false     |
+| `--help`         | -     | Show help message             | -         |
 
 Auto-update
 - Updates are handled by the app and shown in the UI when available.
