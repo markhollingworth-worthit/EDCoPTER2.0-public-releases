@@ -42,7 +42,3 @@ Troubleshooting (common)
 Privacy & Data
 
 - Local configuration and logs are stored in `%USERPROFILE%\.edcopter\` (Windows). No telemetry is sent by default.
-
-Need help?
-
-- See the project `README.md`, `docs/user/QUICKSTART.md` and the `docs/developer/IMPLEMENTATION.md` files in the repo for more details.
