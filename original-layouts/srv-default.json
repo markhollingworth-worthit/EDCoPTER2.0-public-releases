@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-01-23T17:07:22.376Z",
+  "buttons": [
+    {
+      "id": "0-0",
+      "label": "SYSTEM\\nPIP",
+      "command": "IncreaseSystemsPower_Buggy",
+      "x": 10,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "gray",
+      "bound": false
+    },
+    {
+      "id": "0-1",
+      "label": "ENGINE\\nPIP",
+      "command": "IncreaseEnginesPower_Buggy",
+      "x": 170,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "gray",
+      "bound": false
+    },
+    {
+      "id": "0-2",
+      "label": "WEAPONS\\nPIP",
+      "command": "IncreaseWeaponsPower_Buggy",
+      "x": 330,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "gray",
+      "bound": false
+    },
+    {
+      "id": "0-3",
+      "label": "BALANCE\\nPIPS",
+      "command": "ResetPowerDistribution_Buggy",
+      "x": 490,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "red",
+      "bound": false
+    },
+    {
+      "id": "0-5",
+      "label": "PREV\\nFIREGROUP",
+      "command": "BuggyCycleFireGroupPrevious",
+      "x": 810,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "orange",
+      "bound": true
+    },
+    {
+      "id": "0-6",
+      "label": "NEXT\\nFIREGROUP",
+      "command": "BuggyCycleFireGroupNext",
+      "x": 970,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "orange",
+      "bound": true
+    },
+    {
+      "id": "0-7",
+      "label": "ANALYSIS /\\nCOMBAT MODE",
+      "command": "PlayerHUDModeToggle_Buggy",
+      "x": 1130,
+      "y": 50,
+      "width": 150,
+      "height": 100,
+      "color": "blue",
+      "bound": false
+    },
+    {
+      "id": "2-1",
+      "label": "HANDBRAKE",
+      "command": "AutoBreakBuggyButton",
+      "x": 170,
+      "y": 200,
+      "width": 150,
+      "height": 100,
+      "color": "orange",
+      "bound": true
+    },
+    {
+      "id": "2-2",
+      "label": "HEADLIGHTS",
+      "command": "HeadlightsBuggyButton",
+      "x": 330,
+      "y": 200,
+      "width": 150,
+      "height": 100,
+      "color": "orange",
+      "bound": true
+    },
+    {
+      "id": "2-3",
+      "label": "DRIVE\\nASSIST",
+      "command": "ToggleDriveAssist",
+      "x": 490,
+      "y": 200,
+      "width": 150,
+      "height": 100,
+      "color": "gray",
+      "bound": true
+    },
+    {
+      "id": "2-5",
+      "label": "CARGO\\nSCOOP",
+      "command": "ToggleCargoScoop_Buggy",
+      "x": 810,
+      "y": 200,
+      "width": 150,
+      "height": 100,
+      "color": "blue",
+      "bound": false,
+      "textPosition": "middle",
+      "showLabel": true,
+      "shape": "rect",
+      "reactToState": true,
+      "stateCommand": "ToggleCargoScoop_Buggy"
+    },
+    {
+      "id": "2-6",
+      "label": "JETTISON\\nCARGO",
+      "command": "EjectAllCargo_Buggy",
+      "x": 970,
+      "y": 200,
+      "width": 150,
+      "height": 100,
+      "color": "red",
+      "bound": false
+    },
+    {
+      "id": "4-1",
+      "label": "TURRET",
+      "command": "ToggleBuggyTurret",
+      "x": 170,
+      "y": 370,
+      "width": 150,
+      "height": 100,
+      "color": "blue",
+      "bound": false
+    },
+    {
+      "id": "4-2",
+      "label": "RECALL /\\nDISMISS\\nSHIP",
+      "command": "RecallDismissShip",
+      "x": 330,
+      "y": 370,
+      "width": 150,
+      "height": 100,
+      "color": "red",
+      "bound": false
+    },
+    {
+      "id": "4-5",
+      "label": "NIGHT VISION",
+      "command": "NightVisionToggle",
+      "x": 810,
+      "y": 370,
+      "width": 150,
+      "height": 100,
+      "color": "orange",
+      "bound": true
+    },
+    {
+      "id": "4-6",
+      "label": "CAMERA",
+      "command": "PhotoCameraToggle_Buggy",
+      "x": 970,
+      "y": 370,
+      "width": 150,
+      "height": 100,
+      "color": "red",
+      "bound": false
+    }
+  ]
+}
