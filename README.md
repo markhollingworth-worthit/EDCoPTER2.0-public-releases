@@ -1,11 +1,9 @@
-# EDCoPTER2.0-public-releases
-
 # Quick User Guide
 
 This document explains how to install and run the EDCoPTER desktop application (Electron installer) and the most common user tasks.
 
 Installation (Windows)
-- Download the latest installer (EXE) from your project's Releases page.
+- Download the latest installer (EXE) from the Releases page or `https://edcopter.net`.
 - Run the installer and follow the prompts (default install path recommended).
 - If prompted by Windows Defender / SmartScreen, choose "More info" → "Run anyway" if you trust this build.
 
