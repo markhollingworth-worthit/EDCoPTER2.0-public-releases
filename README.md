@@ -2,7 +2,7 @@
 
 This document explains how to install and run the EDCoPTER desktop application (Electron installer) and the most common user tasks.
 
-Installation (Windows)
+## Installation (Windows)
 - Download the latest installer (EXE) from the Releases page or `https://edcopter.net`.
 - Run the installer and follow the prompts (default install path recommended).
 - If prompted by Windows Defender / SmartScreen, choose "More info" → "Run anyway" if you trust this build.
@@ -31,7 +31,7 @@ Headless / Server Mode
 Auto-update
 - Updates are handled by the app and shown in the UI when available.
 
-Troubleshooting (common)
+## Troubleshooting (common)
 - WebSocket connection fails: verify EDCoPilot is running.
 - UI not loading: confirm the `edcopter/` folder exists and contains `index.html`.
 - Installer won't run: ensure antivirus or SmartScreen isn't blocking the binary.
