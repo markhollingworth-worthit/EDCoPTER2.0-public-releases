@@ -39,3 +39,17 @@ Auto-update
 Privacy & Data
 - Local configuration and logs are stored in `%USERPROFILE%\.edcopter2.0\` (Windows). No telemetry is sent by default.
 
+## Disclaimers
+
+### Warranty & liability
+- This software is provided **"as is"** and **without warranties or conditions of any kind**, whether express, implied, or statutory, including (without limitation) implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+- To the maximum extent permitted by applicable law, the authors and contributors will **not be liable** for any direct, indirect, incidental, special, consequential, or exemplary damages (including, without limitation, loss of profits, data, or business interruption) arising out of or in connection with the software or the use of the software, even if advised of the possibility of such damage.
+
+### Security / network use
+- Running EDCoPTER in headless/server mode may expose an HTTP/WebSocket service on your network.
+- If you use `--ip 0.0.0.0` (the default), EDCoPTER will bind to **all** network interfaces. Only do this on trusted networks, and ensure your firewall rules restrict access appropriately.
+- Do **not** expose EDCoPTER directly to the public internet without additional protections (e.g., VPN, reverse proxy with authentication/TLS, IP allowlists).
+
+### Support & maintenance
+- This user guide and the software may change without notice.
+- Support is provided on a best-effort basis (or may be unavailable), and there is no guarantee of fixes, updates, or continued compatibility with future operating system or dependency changes.
