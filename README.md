@@ -23,6 +23,9 @@ Headless / Server Mode
 |------------------|-------|-------------------------------|-----------|
 | `--headless`     | `-h`  | Run without GUI (server only) | false     |
 | `--port`         | `-p`  | HTTP/WebSocket server port    | 4500      |
+| `--open-web-ui`  | -     | open the Local EDCoPTER UI in | -         |
+|                  |       | an Electron window; closing   |           |
+|                  |       | it stops the server.          |           |
 | `--ip`           | -     | Server IP address             | 0.0.0.0   |
 | `--edcopilot-ip` | -     | EDCoPilot TCP server IP       | 127.0.0.1 |
 | `--debug`        | `-d`  | Enable debug logging          | false     |
